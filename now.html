@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            color: darkgreen;
+        }
+        .clBlack {
+            color: black;
+            
+            span {
+                color: rgb(209, 24, 148);
+                font-weight: bold;
+            }
+        }
+        
+        .clred {
+            color: red;
+        }
+        .cldblue {
+            color: rgb(7, 1, 61);
+        }
+
+        #myId {
+            color: purple;
+            font-weight: bold;
+        }
+
+        .clBlack, .clred, .cldblue {
+            font-style: italic;
+            text-align: center;
+            font-size: 25px;
+            text-decoration: underline;
+        }
+        span {
+            color: darkorange;
+            font-weight: bold;
+        }
+
+        .div1
+        {
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 10px;
+            p {
+                color: white;
+                font-weight: bold;
+            }
+            h2 {
+                color: white;
+                text-align: center;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    inline
+    external
+    internal
+
+    <!-- Selectors -->
+     <!-- 1. Tag Selector -->
+
+     <h1>My Day</h1>
+
+     <!-- Selectors -->
+     <!-- 2. Class Selector -->
+      <div class="clBlack">
+        <p class="clBlack">Today is a beautiful <span>day!</span></p>
+      </div>
+        <p class="clred">Today was  <span>rainy</span></p>
+        <p class="cldblue">Tomorrow will be  <span>better</span></p>
+
+    <!-- Selectors -->
+     <!-- 3. ID Selector -->
+        <p id="myId">This is a paragraph with an ID.</p>
+
+
+
+
+        <div class="div1">
+            <h2>Book</h2>
+            <p>This is a paragraph inside a div.</p>
+        </div>
+        <div class="div2">
+            <p>This is another paragraph inside a different div.</p>
+        </div>
+        <div class="div3">
+            <p>This is a third paragraph inside yet another div.</p>
+        </div>
+
+        <!-- Selectors -->
+     <!-- 4. Universal Selector -->
+</body>
+</html>
